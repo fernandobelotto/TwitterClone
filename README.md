@@ -13,22 +13,20 @@ Be sure, you have installed all dependencies and applications to run React Nativ
 Clone this repository :
 
 ```
-git clone https://github.com/stevenpersia/tinder-react-native.git
-cd tinder-react-native
+git clone https://github.com/fernandobelotto/twitter-do-fer
+cd twitter-do-fer
 ```
 
 Install packages :
 
 ```
-npm install
+yarn install
 ```
 
-When installation is complete, run with version of your choice :
+When installation is complete, run with:
 
-```bash
-react-native run-ios
-# or
-react-native run-android
+```
+yarn start
 ```
 
 
