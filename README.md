@@ -1,16 +1,37 @@
 # Twitter do fer
 
-## Descrição
+## Overview
 
-O objetivo desse projeto é desenvolver um clone do front-end do Twitter usando React Native e consumir os dados da própria API do original.
+The objective of this project is to develop a Twitter clone using React Native and Expo.
 
-## Como rodar no seu computador?
+## Installation and usage
 
-1. clone o repositório usando `git clone`
-2. entre na pasta e execute `yarn`, e em seguida, `yarn start`
-3. Leia o QR Code no aplicativo do Expo
-4. Seja feliz!
+Be sure, you have installed all dependencies and applications to run React Native project on your computer : [Getting Started with React Native](https://facebook.github.io/react-native/docs/getting-started).
+
+### Running the project
+
+Clone this repository :
+
+```
+git clone https://github.com/stevenpersia/tinder-react-native.git
+cd tinder-react-native
+```
+
+Install packages :
+
+```
+npm install
+```
+
+When installation is complete, run with version of your choice :
+
+```bash
+react-native run-ios
+# or
+react-native run-android
+```
+
 
 ## Disclaimer
 
-Meu intuito com esse projeto é puramente educacional. Não tenho nenhuma inteção comercial ao desenvolver essa aplicação.
+My objective here is pure educational, and not for commercial use. Use this project at your own responsability and risk
