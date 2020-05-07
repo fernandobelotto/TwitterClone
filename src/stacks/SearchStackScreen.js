@@ -1,17 +1,19 @@
 import React from 'react'
-import { View } from 'react-native'
-import { Header, Icon, Avatar } from 'react-native-elements'
 
-const SearchScreen = () => {
+import { createStackNavigator } from '@react-navigation/stack'
+import HomeScreen from '../pages/HomeScreen'
+import { View, Text, Button } from 'react-native'
+import { Icon } from 'react-native-elements'
+import SearchScreen from '../pages/SearchScreen'
+
+const Stack = createStackNavigator()
+
+const SearchStackScreen = () => {
   return (
-    <View style={{ flex: 1 }}>
-      <Header containerStyle={{ height: 60, padding: 20, backgroundColor: 'transparent' }}>
-        <Avatar rounded />
-        <Icon name='twitter' type='feather' color='#1DA1F3' />
-        <Icon name='settings' type='feather' color='#1DA1F3' />
-      </Header>
-    </View>
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name='SearchScreen' component={SearchScreen} />
+    </Stack.Navigator>
   )
 }
 
-export default SearchScreen
+export default SearchStackScreen
